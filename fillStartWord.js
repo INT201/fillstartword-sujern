@@ -10,7 +10,7 @@ else if(word.includes(startWord) == true){
 }
 
 else{
-    return "startWord+word"
+    return startWord+word
 }
 }
 module.exports = fillStartWord
